@@ -74,17 +74,21 @@ Create a Power BI report with the following visualizations and features:
 * Filter: Only Suburban Store Setting
 
 
-## 5 a) Scatter Chart
+## 5(a) Clustered Column Chart
 
-* X-Axis: Video Games (Gadgets)
-* Y-Axis: Outdoor Sports
-* Legend/Details: Age Group
+Video Games purchase and Outdoor Sports spent across the different ages
+
+Fields to use in Clustered Column Chart
+
+* X-Axis: AgeGrp
+* Y-Axis (Values):VideoGames and OutDoor SportKits
+
 
 ### b) Ribbon Chart
 
-* Axis: Age Group
-* Legend: Category (Indoor Sports and Video Games)
-* Values: Spending
+* Axis: VGCategory
+* Legend: AgeGrp
+* Values: Sum of InDoorSportKits
 
 
 ## 6. Row-Level Security (RLS)
